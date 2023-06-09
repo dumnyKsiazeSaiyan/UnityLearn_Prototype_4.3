@@ -454,7 +454,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d0c9a179b95b65745aa796acc9c7a2c5, type: 2}
+  - {fileID: 2100000, guid: 4c97b24d72ebade4d98acaf3b75c90ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -723,7 +723,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab:
   - {fileID: 2478088768520011829, guid: 8be523850add1574685fbe805f2a7bc3, type: 3}
-  numberOfEnemies: 0
+  powerupPrefab:
+  - {fileID: 4793948064083715638, guid: 45b13a5813bf0d24e88da7635c37dd81, type: 3}
+  enemyCount: 0
+  waveNumber: 1
 --- !u!4 &1309756231
 Transform:
   m_ObjectHideFlags: 0
